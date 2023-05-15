@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ManasPart.module.css";
 import bookImg from "../../assests/images/MainPage/ManasPart/book_manas.png";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const ManasPart = () => {
   return (
@@ -15,7 +15,7 @@ const ManasPart = () => {
               </div>
               <div className={styles.child_manasPart_right}>
                 <h3>Открой для себя Великий Эпос</h3>
-                <NavLink>Начните с первой страницы</NavLink>
+                <Link to={"/"}>Начните с первой страницы</Link>
               </div>
             </div>
           </div>

@@ -2,9 +2,11 @@
   background-color: #fff;
   padding: 18px 0;
   position: fixed;
+  top: 0;
   width: 100%;
   -webkit-box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 .parent_NavMenu .child_NavMenu {
   display: -webkit-box;

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./HeaderMain.module.css";
 
 const HeaderMain = () => {
@@ -17,7 +18,7 @@ const HeaderMain = () => {
             bibendum nulla porta volutpat.
           </span>
           <div>
-            <button>Смотреть все книги</button>
+            <Link to={"/"}>Смотреть все книги</Link>
           </div>
         </div>
       </div>

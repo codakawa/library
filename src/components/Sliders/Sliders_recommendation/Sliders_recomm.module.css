@@ -1,0 +1,23 @@
+.next, .prev {
+  width: 20px;
+  height: 37px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: -140px;
+}
+
+.next {
+  background-image: url("../../../assests/images/MainPage/recommendation/arrow.png");
+  right: 42%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.prev {
+  background-image: url("../../../assests/images/MainPage/recommendation/arrow.png");
+  -webkit-transform: rotate(180deg) translate(-50%);
+          transform: rotate(180deg) translate(-50%);
+  left: 37%;
+}

@@ -1,0 +1,57 @@
+.sliderBlock {
+  width: 552px;
+  height: 379px;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  color: black;
+}
+.sliderBlock a {
+  color: black;
+  text-decoration: none;
+}
+.sliderBlock .postImage {
+  width: 200px;
+  height: 300px;
+  margin-left: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  background-color: grey;
+}
+.sliderBlock .postText {
+  margin-left: 23px;
+  margin-top: 40px;
+  width: 280px;
+}
+.sliderBlock .postText h2 {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 45px;
+}
+.sliderBlock .postText p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 244px;
+}
+.sliderBlock .continueRead {
+  position: absolute;
+  width: 164px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px 24px;
+  bottom: 22px;
+  right: 39px;
+  background: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  cursor: pointer;
+  color: black;
+  text-align: center;
+}
