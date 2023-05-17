@@ -25,6 +25,12 @@ export const RegistrationPage = () => {
               </div>
               <h1>Muras</h1>
             </div>
+            <div className={styles.block_logo}>
+              <div>
+                <img src={logo} alt="" />
+              </div>
+              <h1>Muras</h1>
+            </div>
             <h2>Регистрация </h2>
             <p>
               Зарегистрируйтесь, чтобы бесплатно читать книги ваших любимых
